@@ -84,6 +84,7 @@ public class GameManager : MonoBehaviour
     {   
         //array with uniqye number between 0 to 7
         var nums = Enumerable.Range(0, 8).ToArray();
+        /*
         var rnd = new Random();
 
         // Shuffle the array
@@ -94,6 +95,7 @@ public class GameManager : MonoBehaviour
             nums[randomIndex] = nums[i];
             nums[i] = temp;
         }
+        */
 
         //white pieces
         AddPiece(whiteRook, white, nums[0], 0);
